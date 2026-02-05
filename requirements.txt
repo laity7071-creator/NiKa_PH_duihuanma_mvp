@@ -1,0 +1,12 @@
+# 核心依赖
+requests==2.31.0          # 接口请求
+pytest==7.4.3             # 测试用例执行框架
+pymysql==1.1.0            # 数据库连接
+python-dotenv==1.0.0      # 环境变量加载
+pytest-html==4.1.1        # HTML测试报告生成
+pytest-json-report==1.5.0 # JSON测试报告生成
+pytest-order==1.1.0       # 控制用例执行顺序
+
+# 辅助依赖
+json5==0.9.14             # JSON数据处理
+argparse==1.4.0           # 命令行参数解析（Python内置）

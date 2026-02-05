@@ -1,0 +1,19 @@
+
+优先
+# 下载相关所需要的依赖
+pip install -r requirements.txt
+
+
+# 退出当前虚拟环境
+deactivate
+
+# 删除旧虚拟环境文件夹（路径对应你的项目）
+rm -r D:\LaityTest\NiKa_PH_duihuanma_mvp\venv
+
+# 在激活虚拟环境的前提下执行
+python.exe -m pip install --upgrade pip
+
+# 重新创建虚拟环境并激活
+python -m venv venv
+venv\Scripts\activate
+
